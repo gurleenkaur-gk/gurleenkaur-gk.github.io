@@ -1,0 +1,156 @@
+body {
+  font-family: monospace;
+  background-color: #1f1f1f;
+  color: #fefdfb;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 10% 0px 10%;
+}
+
+.button {
+  display: flex;
+  font-family: monospace, sans-serif, Arial;
+  font-weight: bold;
+  margin: 30px 20px 0px 0px;
+  padding: 0px 0px 0px 16.5px;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fefdfb;
+  background-color: #d4a3f0;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px #999;
+  height: 50px;
+}
+
+.button:hover {
+  background-color: #bf78e7
+}
+
+.button:active {
+  background-color: #bf78e7;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+.learn_more {
+  font-family: monospace, sans-serif, Arial;
+  font-weight: bold;
+  align-items: left;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  color: #d4a3f0;
+  background-color: inherit;
+  border: none;
+  height: 30px;
+  width: 250px;
+  padding: 0px 10px 0px 0px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.learn_more span {
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.learn_more span:after {
+  content: '\00bb';
+  color: #d4a3f0;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+.learn_more:hover span {
+  padding-right: 15px;
+}
+
+.learn_more:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+main {
+  text-align: left;
+  margin: 0px 10% 0 10%;
+}
+
+h1 {
+  font-size: 4em;
+  color: #d4a3f0;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 3em;
+  color: #d4a3f0;
+  margin-bottom: 10px;
+  margin-top: 80px;
+}
+
+section {
+  padding: 0px 0px 0px 0px;
+}
+
+#skills div,
+#secondary div {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  background-color: inherit;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #fefdfb;
+  border-radius: 6px;
+}
+
+h3 {
+  font-size: 2em;
+  color: #d4a3f0;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: inherit;
+  color: white;
+  text-align: left;
+  padding: 20px 0;
+}
+
+.about_title {
+  font-size: 5em;
+  color: #d4a3f0;
+  padding: 0px 0px 0px 0px;
+}
+
+.text {
+  font-size: 1.5em;
+  color: #fefdfb;
+  padding: 0px 0px 0px 0px;
+  line-height: 30px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  padding: 20px 50px 0px 0px;
+  width: 150px;
+}

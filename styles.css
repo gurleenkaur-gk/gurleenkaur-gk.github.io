@@ -9,7 +9,8 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  margin: 0px 10% 0px 10%;
+  justify-content: space-evenly;
+  margin: 0px 25% 0 25%;
 }
 
 .button {
@@ -88,7 +89,7 @@ header {
 
 main {
   text-align: left;
-  margin: 0px 10% 0 10%;
+  margin: 0px 15% 0 15%;
 }
 
 h1 {
@@ -114,18 +115,54 @@ section {
   justify-content: center;
 }
 
+#secondary div article {
+  flex: 1;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  padding: 0px;
+  width: 150px;
+}
+
+figure figcaption {
+  text-align: center;
+  font-size: 1.5em;
+  color: #d4a3f0;
+}
+
+figure img {
+  margin: 10px 0px 0px 0px;
+}
+
 article {
   background-color: inherit;
-  padding: 20px;
-  margin: 10px;
+  padding: 5px 20px 20px 20px;
+  justify-content: space-between;
+  margin: 10px 10px 10px 10px;
   border: 1px solid #fefdfb;
   border-radius: 6px;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.75em;
   color: #d4a3f0;
   margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.2em;
+  margin: 0px;
 }
 
 footer {
@@ -135,7 +172,7 @@ footer {
   padding: 20px 0;
 }
 
-.about_title {
+.title {
   font-size: 5em;
   color: #d4a3f0;
   padding: 0px 0px 0px 0px;
@@ -144,13 +181,32 @@ footer {
 .text {
   font-size: 1.5em;
   color: #fefdfb;
-  padding: 0px 0px 0px 0px;
   line-height: 30px;
 }
 
-.icon {
+section a.text {
   display: flex;
-  justify-content: center;
-  padding: 20px 50px 0px 0px;
-  width: 150px;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+}
+
+a.text p {
+  margin-left: 5px;
+}
+
+iframe {
+  height: 100vh;
+}
+
+.about_home img {
+  float: right;
+  margin: 40px 20px 0px 0px;
+  border-radius: 25px;
+}
+
+.about_home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

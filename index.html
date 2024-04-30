@@ -16,19 +16,22 @@
     <a class="button" href="projects.html">Projects <img src="projects.png"
         style="vertical-align: middle; height: 3.5em;"></a>
     <!-- TODO: add link -->
-    <a class="button" href="Gurleen_Kaur_Resume.pdf">Resume<img src="resume.png"
-        style="vertical-align: middle; height: 3.5em;"></a>
+    <a class="button" href="resume.html">Resume<img src="resume.png" style="vertical-align: middle; height: 3.5em;"></a>
   </header>
 
   <main>
-    <section class="about">
-      <h1 class="about_title"><b>Gurleen Kaur</b></h1>
-      <!-- TODO: add typing animation -->
-      <!-- https://blog.hubspot.com/website/typing-animation-css -->
-      <p class="text">Hello! Welcome to my digitized history! <br> In short, I am an upcoming software developer looking
-        to change the world one line of code at a
-        time. </p>
-      <a href="about.html" class="learn_more"><span>Learn More About Me</span></a>
+    <section class="about_home">
+      <div class="about_text">
+        <h1 class="about_title"><b>Gurleen Kaur</b></h1>
+        <!-- TODO: add typing animation -->
+        <!-- https://blog.hubspot.com/website/typing-animation-css -->
+        <!-- TODO: add image -->
+        <p class="text">Hello! Welcome to my digitized history! <br> In short, I am an upcoming software developer
+          looking
+          to change the world one line of code at a time. </p>
+        <a href="about.html" class="learn_more"><span>Learn More About Me</span></a>
+      </div>
+      <div class="headshot"><img src="headshot.heic" width="300px"></div>
     </section>
 
     <section id="skills">
@@ -36,46 +39,67 @@
       <!-- TODO: make icons float when hovered over -->
       <!-- TODO: add captions to images -->
       <div>
-        <img src="generated/java.svg" class="icon">
-        <img src="generated/python.svg" class="icon">
-        <img src="generated/cmd.svg" class="icon">
-        <img src="generated/sql.svg" class="icon">
+        <figure>
+          <img src="generated/java.svg" class="icon">
+          <figcaption>Java</figcaption>
+        </figure>
+        <figure>
+          <img src="generated/python.svg" class="icon">
+          <figcaption>Python</figcaption>
+        </figure>
+        <figure>
+          <img src="generated/cmd.svg" class="icon">
+          <figcaption>Command Line</figcaption>
+        </figure>
+        <figure>
+          <img src="generated/sql.svg" class="icon">
+          <figcaption>SQL</figcaption>
+        </figure>
       </div>
     </section>
 
     <section id="secondary">
-      <!-- TODO: add arrow animation -->
       <h2>Project Highlights <a href="projects.html" class="learn_more"><span>See All</span></a></h2>
       <div>
+        <!-- TODO: make background slightly lighter than site background -->
+        <!-- TODO: make pages for the learn more buttons -->
         <article>
-          <h3>Project Title 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="#" class="learn_more"><span>Article</span></a>
-          <a href="#" class="learn_more"><span>Demo</span></a>
+          <h3>UNO: The Card Game</h3>
+          <h4>2023</h4>
+          <p>Play UNO against our AI! Will you win?</p>
+          <a href="#" class="learn_more"><span>Learn More</span></a>
+          <!-- <a href="#" class="learn_more"><span>Demo</span></a> -->
         </article>
         <article>
-          <h3>Project Title 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="#" class="learn_more"><span>Article</span></a>
-          <a href="#" class="learn_more"><span>Demo</span></a>
+          <h3>Star Classification</h3>
+          <h4>2022</h4>
+          <p>A Star Classification Machine Learning Model.</p>
+          <a href="#" class="learn_more"><span>Learn More</span></a>
+          <!-- <a href="#" class="learn_more"><span>Demo</span></a> -->
         </article>
         <article>
-          <h3>Project Title 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="#" class="learn_more"><span>Article</span></a>
-          <a href="#" class="learn_more"><span>Demo</span></a>
+          <h3>NBA Data Analysis</h3>
+          <h4>2023</h4>
+          <p>In Depth Analysis of Buzzer-Beater Shots in NBA History.</p>
+          <a href="#" class="learn_more"><span>Learn More</span></a>
+          <!-- <a href="#" class="learn_more"><span>Demo</span></a> -->
         </article>
       </div>
     </section>
 
 
+    <!-- TODO: make into buttons without links -->
     <section id="contact">
       <h2>Connect With Me!</h2>
-      <a href="https://www.linkedin.com/in/gurleen-kaur-b42019167/" class="text"><img src="generated/linkedin.svg"
-          style="vertical-align: middle; height: 3em;"> https://www.linkedin.com/in/gurleen-kaur-b42019167/</a>
+      <a href="https://www.linkedin.com/in/gurleen-kaur-b42019167/" class="text">
+        <img src="generated/linkedin.svg" style="vertical-align: middle; height: 3em;">
+        <p>https://www.linkedin.com/in/gurleen-kaur-b42019167/</p>
+      </a>
       <p class="text"><img src="generated/phone.svg" style="vertical-align: middle; height: 3em;">(347) 863-4560</p>
-      <a href="mailto:gk325@cornell.edu" class="text"><img src="generated/email.svg"
-          style="vertical-align: middle; height: 3em;"> gk325@cornell.edu</a>
+      <a href="mailto:gk325@cornell.edu" class="text"><img src="generated/email.svg" style="
+      vertical-align: middle; height: 3em;">
+        <p>gk325@cornell.edu</p>
+      </a>
     </section>
   </main>
 </body>

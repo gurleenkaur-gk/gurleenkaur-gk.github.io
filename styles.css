@@ -105,19 +105,36 @@ h2 {
   margin-top: 80px;
 }
 
-section {
-  padding: 0px 0px 0px 0px;
+section#secondary {
+  width: 110%;
 }
 
-#skills div,
-#secondary div {
+#skills div {
   display: flex;
   justify-content: center;
 }
 
-#secondary div article {
+/* #skills div,
+#secondary div {
+  display: flex;
+  justify-content: center;
+} */
+
+#secondary div {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
   flex: 1;
 }
+
+#secondary div article {
+  width: 25%;
+  word-wrap: break-word;
+}
+
+/* #secondary div article {
+  flex: 1;
+} */
 
 figure {
   display: flex;
@@ -209,4 +226,17 @@ iframe {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+#hobby {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#hobby img {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  padding: 10px 20px 10px 20px;
 }

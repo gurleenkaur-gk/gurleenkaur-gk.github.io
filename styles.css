@@ -114,12 +114,6 @@ section#secondary {
   justify-content: center;
 }
 
-/* #skills div,
-#secondary div {
-  display: flex;
-  justify-content: center;
-} */
-
 #secondary div {
   display: flex;
   align-content: flex-start;
@@ -132,9 +126,6 @@ section#secondary {
   word-wrap: break-word;
 }
 
-/* #secondary div article {
-  flex: 1;
-} */
 
 figure {
   display: flex;
@@ -197,6 +188,12 @@ footer {
 
 .text {
   font-size: 1.5em;
+  color: #fefdfb;
+  line-height: 30px;
+}
+
+.text_chunk {
+  font-size: 1.3em;
   color: #fefdfb;
   line-height: 30px;
 }
